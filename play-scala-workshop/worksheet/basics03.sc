@@ -20,3 +20,31 @@ add(a,b)
 def minus(a: Int, b: Int) = a - b
 
 minus(a,b)
+
+/**
+ * Method with no return types
+ * In Scala, every method has a type, there is no void
+ */
+
+def talk(lang: String): Unit = {
+  println(s"Talk ${lang}")
+}
+
+/**
+ * Method with no return types
+ * procedure syntax
+ */
+
+def speak(lang: String) {
+  println(s"Talk ${lang}")
+}
+
+/**
+ * Mistake
+ */
+
+def plus(a: Int, b: Int) {
+  a + b
+}
+
+plus(2,3)
