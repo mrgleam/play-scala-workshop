@@ -4,7 +4,6 @@
  * while is non-functional
  * while still use for performance
  * while must have side effect
- *
  */
 
 var a = 0
