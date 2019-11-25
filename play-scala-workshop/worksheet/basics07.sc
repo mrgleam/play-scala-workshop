@@ -24,3 +24,22 @@ val result = while (d) {
   println("Hi")
   d = false
 }
+
+/**
+ * val and var also produce Unit return types
+ */
+
+var a = 5
+val b = a = 10
+println(a)
+println(b)
+
+/**
+ * A common mistake
+ */
+
+def add(a: Int, b: Int) = {
+  val result = a + b
+}
+
+val sum = add(1,2)

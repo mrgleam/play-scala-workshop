@@ -40,7 +40,7 @@ def speak(lang: String) {
 }
 
 /**
- * Mistake
+ * A common mistake
  */
 
 def plus(a: Int, b: Int) {
