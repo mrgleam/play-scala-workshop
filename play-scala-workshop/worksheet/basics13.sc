@@ -11,5 +11,14 @@ s1 += 4
 
 s2 += 4
 //s2 = s2 + 4
-
 s2
+
+val xs = List(1,2,3)
+
+//xs = 0 :: xs
+
+//xs(1) = 99
+
+var listA = List(1,2,3)
+listA = 0 :: listA
+listA
