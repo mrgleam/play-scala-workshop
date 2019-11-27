@@ -22,3 +22,14 @@ val xs = List(1,2,3)
 var listA = List(1,2,3)
 listA = 0 :: listA
 listA
+
+/**
+ * Common mistake
+ * Do not use var and mutable in the same time
+ */
+
+var s3 = s1
+
+s3 += 5
+
+s1
