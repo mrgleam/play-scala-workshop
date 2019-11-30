@@ -4,13 +4,19 @@ import scala.language.implicitConversions
  * Method with implicit parameter
  */
 
-implicit val x = 1
 def plus(a: Int)(implicit b: Int): Int = a + b
 
+plus(1)(10)
+//plus(1)
+
+implicit val x: Int = 1
+plus(1)
+
+//implicit val z: Int = 11
 plus(1)
 
 /**
- * Companion object with implicit conversion
+ * implicit conversion
  */
 
 class TooMuch {
