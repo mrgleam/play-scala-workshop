@@ -13,4 +13,8 @@ def toInt(in: String): Option[Int] = {
 
 val bag = List("1", "2", "foo", "3", "bar")
 
+bag.map(toInt)
+
+bag.flatMap(toInt)
+
 val sum = bag.flatMap(toInt).sum
