@@ -20,5 +20,6 @@ class FactorialSpec extends FreeSpec with Matchers {
     factorial of 2 shouldBe 2
     factorial of 3 shouldBe 6
     factorial of 4 shouldBe 24
+    factorial of 4 shouldBe 120
   }
 }
