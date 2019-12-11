@@ -2,7 +2,7 @@ package exercises
 
 import org.scalatest.{FreeSpec, Matchers}
 
-class PalindromeSpec  extends FreeSpec with Matchers {
+class PalindromeSpec extends FreeSpec with Matchers {
   val palindrome = new Palindrome
 
   "is even should work correctly" ignore {
