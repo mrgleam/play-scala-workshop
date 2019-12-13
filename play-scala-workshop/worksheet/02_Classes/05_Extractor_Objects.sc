@@ -30,3 +30,7 @@ case class Book(isbn: String)
 val frankenstein = Book("978-0486282114")
 
 val isbn = Book.unapply(frankenstein)
+
+case class Foo(foo: String, bar: Int)
+
+val (str, in) = Foo.unapply(Foo("test", 123)).get

@@ -42,7 +42,3 @@ message4.recipient
 message4.body
 
 message4 == message5
-
-case class Foo(foo: String, bar: Int)
-
-val (str, in) = Foo.unapply(Foo("test", 123)).get
