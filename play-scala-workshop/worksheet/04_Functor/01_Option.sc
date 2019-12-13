@@ -35,7 +35,7 @@ def toIntImp(in: String) = {
 }
 
 val i = toIntImp("too");
-if (i == null) {
+if (null == i) {
   System.out.println("That didn't work.");
 } else {
   System.out.println(i);
