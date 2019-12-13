@@ -3,7 +3,7 @@
  * A val is a final variable definition, it cannot be re-assigned with a different value.
  */
 
-val a = 10
+val a: Int = 10
 
 //a = 11
 
@@ -12,7 +12,7 @@ val a = 10
  * with another value of the same type
  */
 
-var b = 10
+var b: Int = 10
 
 b = 11
 
@@ -22,11 +22,11 @@ b = 11
  * Val and new scope
  */
 
-val c = 10
+val c: Int = 10
 print(c)
 
 { // start a new scope
-  val c = 11
+  val c: Int = 11
   print(c)
 }
 
