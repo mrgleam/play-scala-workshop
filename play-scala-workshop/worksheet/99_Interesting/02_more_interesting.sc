@@ -1,5 +1,9 @@
 import scala.language.implicitConversions
 
+/**
+ * https://gist.github.com/kevinwright/1262988
+ * @tparam T
+ */
 class Filters[T] {
 
   //Some boilerplate-busting aliases
