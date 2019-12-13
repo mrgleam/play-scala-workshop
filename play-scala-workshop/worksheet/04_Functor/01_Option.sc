@@ -34,7 +34,7 @@ def toIntImp(in: String) = {
   }
 }
 
-val i = toIntImp("too");
+val i = toIntImp("too")
 if (null == i) {
   System.out.println("That didn't work.");
 } else {
