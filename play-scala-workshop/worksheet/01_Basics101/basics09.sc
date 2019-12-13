@@ -3,15 +3,15 @@
  * Scala has no operator
  */
 
-val x = 1 + 2
+val x: Int = 1 + 2
 
 /**
  * re-written to a method
  */
 
-val x = 1.+(2)
+val x: Int = 1.+(2)
 
-val a = "hi"
+val a: String = "hi"
 a.charAt(1)
 a charAt 1
 
