@@ -1,1 +1,1 @@
-# the-beauty-of-scala-workshop
+# play-scala-workshop
