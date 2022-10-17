@@ -21,3 +21,5 @@ val c5 = new MyClass("c5", 'a')
 
 val c6 = new MyClass("c6", List(12, 13))
 val c7 = new MyClass("c7", List("123", "456"))
+
+import java.lang.Object

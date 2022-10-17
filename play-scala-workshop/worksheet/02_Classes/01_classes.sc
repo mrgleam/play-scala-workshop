@@ -19,6 +19,7 @@ tooMuch.x
 
 tooMuch.addX(1)
 
+// constructor
 class VeryMuch(name: String) {
   println(s"Hello ${name}")
 

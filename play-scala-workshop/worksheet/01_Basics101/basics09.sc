@@ -1,3 +1,5 @@
+import java.lang.System
+
 /**
  * Infix
  * Scala has no operator
