@@ -4,7 +4,11 @@ class Person(name: String, val age: Int) {
   def sayHi(name: String): Unit = println(s"${name} says: Hi, $name")
 //  def sayHi(name: String): Unit = println(s"${this.name} says: Hi, $name")
 
-  // overloading ?? polymorphism
+  /**
+   * overloading or polymorphism
+   *
+   * https://ncatlab.org/nlab/show/polymorphism#parametric_polymorphism
+   **/
   def sayHi(): Unit = println(s"Hi, I am $name")
 
   // multiple constructors
