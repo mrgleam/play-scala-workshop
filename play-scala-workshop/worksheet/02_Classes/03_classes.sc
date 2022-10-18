@@ -7,6 +7,7 @@ class Person {
 }
 
 object Person {
+  // factory method
   def apply(name: String): Person = {
     val p = new Person
     p.name = name
@@ -15,8 +16,11 @@ object Person {
 }
 
 val too = Person("Too")
+val pom = Person("Pom")
 
 too.name
+
+too == pom
 
 /**
  * Accessing private members
