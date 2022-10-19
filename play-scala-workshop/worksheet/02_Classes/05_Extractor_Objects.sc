@@ -35,4 +35,5 @@ case class Foo(foo: String, bar: Int)
 
 val (str, in) = Foo.unapply(Foo("test", 123)).get
 
+//why return Option?
 //Product1

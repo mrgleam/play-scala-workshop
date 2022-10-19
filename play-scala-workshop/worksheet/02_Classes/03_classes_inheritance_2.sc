@@ -13,7 +13,9 @@ val bob = new Programmer(1000000)
 class Doctor(salary: Int) extends Employee(salary) {
 //  override val bonus = 600
   override def work = println("check check")
+//  override def toString: String = s"This is Doctor Class"
 }
+//Object
 
 //class Doctor(salary: Int, override val bonus: Int) extends Employee(salary) {
 //  override def work = println("check check")
